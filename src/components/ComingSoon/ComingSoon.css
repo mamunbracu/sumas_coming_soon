@@ -1,0 +1,372 @@
+
+
+
+
+.coming-wrapper {
+  /* background: #fff8f7; */
+  /* background: rgb(253,233,229);
+  background: radial-gradient(circle, rgba(253,233,229,1) 50%, rgba(237,238,223,1) 100%, rgba(235,237,239,1) 100%); */
+  background-image: url(./coming-soon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+}
+
+.coming-soon-logo {
+  width: 409px;
+  height: 86px;
+
+  /* margin-right: auto; */
+  margin-top: 7rem;
+}
+
+.working-with {
+  width: 583px;
+}
+.connect-with-us {
+  width: 670px;
+  height: 74px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.working h3 {
+  margin-right: auto;
+  /* width: 583px; */
+  margin-top: 71px;
+  margin-left: -9rem;
+  text-transform: capitalize;
+  font-family: Montserrat, sans-serif;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 53px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.working h2 {
+  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-left: -9rem;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+
+.working .thanks {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  margin-left: 8rem;
+  margin-bottom: 1rem !important;
+  margin-top: 2rem !important;
+  text-align: center;
+  color: #393939;
+}
+
+.connect-with-us {
+  position: relative;
+  margin-top: 2rem;
+  margin-left: -7.5rem;
+  margin-top: 4rem;
+  margin-bottom: 73px;
+  width: 670px;
+  height: 66px;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 2.24242px solid #f0674d;
+  box-sizing: border-box;
+  border-radius: 112.121px;
+}
+.connect-with-us input {
+  border: none;
+  box-sizing: border-box;
+  border-radius: 112.121px;
+  margin-left: 2.8rem;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  outline: none !important;
+  border-color: none;
+  background: none;
+}
+.connect-with-us input:focus {
+  outline: none !important;
+  border-color: none;
+  background: none;
+  /* box-shadow: 0 0 10px #719ECE; */
+}
+.connect-with-us button {
+  position: absolute;
+  top: 1px;
+  background: #f4f4f4;
+  border: none;
+  box-sizing: border-box;
+  padding: 5px;
+  background: #f0674d;
+  height: 64px;
+  width: 255px;
+  margin-left: 88px;
+  margin-top: -2px !important;
+  border-top-right-radius: 60px 70px;
+  border-bottom-right-radius: 60px 70px;
+  outline: none !important;
+  border-color: none;
+  color: #fff;
+}
+
+.email-logo {
+  height: 35px;
+  width: 35px;
+}
+
+/* Responsive  */
+
+@media only screen and (max-width: 768px) {
+  .working-with {
+    width: 583px;
+  }
+  .connect-with-us {
+    width: 623px;
+    height: 74px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .connect-with-us {
+    position: relative;
+
+    margin-left: -8.5rem;
+    margin-top: 4rem;
+
+    width: 670px;
+    height: 66px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 2.24242px solid #f0674d;
+    box-sizing: border-box;
+    border-radius: 112.121px;
+  }
+
+  .connect-with-us button {
+    position: absolute;
+    top: 1px;
+  }
+}
+@media only screen and (max-width: 576px) {
+
+
+      
+      .coming-soon-logo {
+        width: 316px;
+        height: 86px;
+        margin-left: 42px;
+        margin-top: 6.2rem;
+      }
+      
+      .working-with {
+        width: 369px;
+      }
+      .connect-with-us {
+        width: 670px;
+        height: 74px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .working h3 {
+        margin-top: 62px;
+        margin-left: 1rem;
+        font-size: 28px;
+        line-height: 19px;
+       
+      }
+      .working h2 {
+       
+    font-size: 38px;
+    line-height: 58px;
+    margin-left: 1rem;
+      }
+      
+      .working .thanks {
+        
+        margin-left: 6rem;
+        
+      }
+      
+      .connect-with-us {
+        position: relative;
+    margin-top: 2rem;
+    margin-top: 4rem;
+    width: 372px;
+    height: 66px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 2.24242px solid #f0674d;
+    box-sizing: border-box;
+    border-radius: 112.121px;
+      }
+      .connect-with-us input {
+        border: none;
+        box-sizing: border-box;
+        border-radius: 112.121px;
+        margin-left: 1.6rem;
+        font-size: 1.3rem;
+        margin-top: 0.7rem;
+        outline: none !important;
+        border-color: none;
+        background: none;
+      }
+     
+      .connect-with-us button {
+        position: absolute;
+        top: 1px;
+        right: -1px;
+        width: 152px;
+        background: #f4f4f4;
+        background: #f0674d;
+        border-color: none;
+      }
+      .social-links{
+          margin-left: 52px;
+      }
+}
+@media only screen and (max-width: 411px) {
+    
+      
+    .coming-soon-logo {
+        width: 300px;
+    height: 73px;
+    margin-top: 6.2rem;
+    margin-left: 45px;
+
+      }
+      
+      .working-with {
+        width: 390px;
+      }
+      .connect-with-us {
+        width: 400px;
+        height: 74px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .working h3 {
+        margin-left: -1rem;
+       
+      }
+      .working h2 {
+    margin-left: -1rem;
+      }
+      
+      .working .thanks {
+        
+        margin-left: 6rem;
+        
+      }
+      
+      .connect-with-us {
+        position: relative;
+    
+    width: 400px;
+    height: 66px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 2.24242px solid #f0674d;
+    box-sizing: border-box;
+    border-radius: 112.121px;
+      }
+      .connect-with-us input {
+        
+    margin-left: 0.8rem;
+    font-size: 16px;
+    margin-top: 16px;
+    border-color: none;
+      }
+     
+      .connect-with-us button {
+        position: absolute;
+        top: 1px;
+        right: -1px;
+        width: 200px;
+        background: #f4f4f4;
+        background: #f0674d;
+        border-color: none;
+      }
+      .social-links{
+          margin-left: 32px;
+      }
+}
+@media only screen and (max-width: 360px) {
+         
+    .coming-soon-logo {
+        width: 259px;
+    height: 65px;
+    margin-top: 6.2rem;
+    margin-left: 38px;
+
+      }
+      
+      .working-with {
+        width: 390px;
+      }
+      .connect-with-us {
+        width: 400px;
+        height: 74px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .working h3 {
+        margin-left: -5rem;
+       
+      }
+      .working h2 {
+    margin-left: -5rem;
+      }
+      
+      .working .thanks {
+        
+        margin-left: 3rem;
+        
+      }
+      
+      .connect-with-us {
+        position: relative;
+    
+    width: 300px;
+    height: 66px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 2.24242px solid #f0674d;
+    box-sizing: border-box;
+    border-radius: 112.121px;
+      }
+      .connect-with-us input {
+        
+        margin-left: 13px;
+        font-size: 17px;
+        margin-top: 15px;
+      }
+     
+      .connect-with-us button {
+        position: absolute;
+        top: 1px;
+        right: -1px;
+        width: 139px;
+        background: #f4f4f4;
+        background: #f0674d;
+        border-color: none;
+      }
+      .social-links{
+          margin-left: 32px;
+      }
+}
+
