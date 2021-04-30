@@ -7,7 +7,7 @@ const ComingSoon = () => {
       <div className="coming-wrapper">
       <div className="container">
           <div className="row align-items-center">
-           <div className="col-md-3 col-sm-none"></div>
+           <div className="col-md-3 col-sm-12"></div>
            <div className="col-md-6 col-sm-12">
            <div className="align-items-center">
                   <img src="/assets/sumas_coming_soon_logo.png" alt="SUMASH TECK" className="coming-soon-logo" />
@@ -33,7 +33,7 @@ const ComingSoon = () => {
                   </div>
               </div>
            </div>
-           <div className="col-md-3 col-sm-none"></div>
+           <div className="col-md-3 col-sm-12"></div>
           </div>
       </div>
       </div>
